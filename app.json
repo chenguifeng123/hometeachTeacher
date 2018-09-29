@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/sign/index",
+    "pages/sign/success",
+    "pages/my/index",
+    "pages/my/classList",
+    "pages/my/oneClass",
+    "pages/my/classRecord",
+    "pages/my/person"
+  ],
+  
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/sign/index",
+        "text": "Sign In"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "My"
+      }
+    ]
+  },
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F3434B",
+    "navigationBarTitleText": "Hometeach",
+    "backgroundColor": "#eeeeee",
+    "navigationBarTextStyle": "white"
+  }
+}

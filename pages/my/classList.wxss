@@ -1,0 +1,4 @@
+/* pages/my/classList.wxss */
+.desc{
+  font-size: 0.9em;
+}

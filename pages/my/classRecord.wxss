@@ -1,0 +1,21 @@
+.grade-left{
+  width: 33%; 
+  float: left; 
+  font-size: 0.7em;
+}
+
+.grade-middle{
+  width: 33%; 
+  float: left; 
+  font-size: 0.7em;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.grade-right{
+  width: 33%;
+  float:left; 
+  font-size: 0.7em;
+}

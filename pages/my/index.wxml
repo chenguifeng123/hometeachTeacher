@@ -1,0 +1,74 @@
+<view class="allPage">
+<view class="personal">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> Get nickname </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="refresh-personal">
+    <button class="weui-btn mini-btn button-personal" type="default" size="mini" open-type="getUserInfo" bindgetuserinfo="getUserInfo">Refresh</button>
+  </view>
+</view>
+
+<modal hidden="{{hiddenmodalput}}" title="Login" confirm-text="Confirm" cancel-text="Cancel" bindcancel="teacherInputCancel" bindconfirm="teacherInputConfirm">  
+    <input type='text' placeholder="Please input telephone number" bindinput="teacherInput"/>  
+</modal>  
+
+    <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__desc"> 
+
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell" bindtap="teacherLogin">
+                <view class="weui-cell__hd">
+                    <image src="../img/student.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">Login</view>
+            </view>
+
+            <view class="weui-cell" bindtap="teacherOut" >
+                <view class="weui-cell__hd">
+                    <image src="../img/account.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">Log Out</view>
+            </view>
+
+            <!--view class="weui-cell"  wx:if="{{globalTeacherId != ''}}">
+                <view class="weui-cell__hd">
+                    <image src="../img/student.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd"><text space="ensp"> Salary        {{salary}} rmb/hour</text> </view>
+            </view-->
+
+            <view class="weui-cell" bindtap="jumpPerson">
+                <view class="weui-cell__hd">
+                    <image src="../img/home.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">My Info</view>
+            </view>
+
+            <view class="weui-cell" bindtap="jumpInfo">
+                <view class="weui-cell__hd">
+                    <image src="../img/cart.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd" >Class Info</view>
+            </view>
+
+            <view class="weui-cell" bindtap="jumpRecord">
+                <view class="weui-cell__hd">
+                    <image src="../img/setting.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">Class Record</view>
+            </view>
+
+        </view>
+
+</view>
+</view>
+</view>
+</view>
+  
+</view>

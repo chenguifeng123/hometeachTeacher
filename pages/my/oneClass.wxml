@@ -1,0 +1,69 @@
+<view class="page">
+
+
+<view class="page__bd">
+<view class="weui-cells weui-cells_after-title">
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Class Name</text> <text class="grade-right">{{className}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Kids Number</text> <text class="grade-right">{{kidsNumber}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Current Book</text> <text class="grade-right">{{startBook}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Teaching Time</text> <text class="grade-right">{{teachingTime}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Teaching Address</text> <text class="grade-right">{{address}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Class Number</text> <text class="grade-right">{{classNumber}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Remain Class Number</text> <text class="grade-right">{{remainClassNumber}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Start Time</text> <text class="grade-right">{{startTime}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Transport Allowance</text> <text class="grade-right">{{transportAllowance}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Last Name</text> <text class="grade-right">{{lastName}}</text> 
+      </view>
+    </view>
+
+</view>
+</view>
+</view>

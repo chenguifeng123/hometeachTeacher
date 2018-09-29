@@ -1,0 +1,21 @@
+<view class="page">
+
+
+<view class="page__bd">
+<view class="weui-cells weui-cells_after-title">
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Last Name</text> <text class="grade-right">{{lastName}}</text> 
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd" decode="{{true}}" space="{{true}}">
+        <text class="grade-left">Hour Salary</text> <text class="grade-right">{{salary}}</text> 
+      </view>
+    </view>
+
+</view>
+</view>
+</view>

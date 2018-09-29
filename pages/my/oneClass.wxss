@@ -1,0 +1,14 @@
+/* pages/my/oneClass.wxss */
+.grade-left{
+  width: 30%; 
+  float: left; 
+  padding-left: 3px; 
+  font-size: 0.9em;
+}
+
+.grade-right{
+  width: 65%;
+  float:left; 
+  padding-left: 10px;
+  font-size: 0.9em;  
+}

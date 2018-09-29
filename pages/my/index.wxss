@@ -1,0 +1,36 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 5rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: white;
+  font-size: 1em;
+}
+
+.refresh-personal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personal, button-personal{
+  background-color: #F3434B;
+}
+
+.weui-panel:before, .weui-panel:after, .weui-media-box:before, .weui-cells:after, .weui-cells:before{
+  border: 0rpx;
+}
+
+.allPage{
+  background-color: "#eeeeee";
+}
+

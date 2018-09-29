@@ -1,0 +1,11 @@
+.grade-left{
+  width: 30%; 
+  float: left; 
+  padding-left: 3px; 
+}
+
+.grade-right{
+  width: 65%;
+  float:left; 
+  padding-left: 10px;
+}
